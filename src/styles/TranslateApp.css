@@ -1,0 +1,178 @@
+.logo{
+    margin-top: 50px;
+    width: 170px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    height: 60%;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 600px;
+    height: 350px;
+    border-radius: 25px;
+    border: 2px solid #4e4e4e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 2rem;
+}
+
+.antes{
+    background-color: #212936CC;
+}
+
+.despues{
+    background-color: #121826CC;
+}
+
+.navegacion, .navegacion-despues{
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    margin-top: 2rem;
+    border-bottom: 1px solid #D2D5DA;
+    padding: 15px;
+}
+
+.navegacion-despues{
+    justify-content: space-between;
+}
+
+.detected{
+    color: #D2D5DA;
+}
+
+.boton-idioma, .boton-idioma-final{
+    background-color: transparent;
+    color: white;
+    padding-left: 10px;
+    border: none;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 7px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.es-inicial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.active, .active-inicial{
+    background-color: #717477;
+}
+
+
+
+.traduccion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    gap: 40px;
+    position: relative;
+}
+
+.botones{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin-bottom: 15px;
+    
+}
+
+.botones-despues{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    width: 90%;
+    margin-bottom: 25px;
+    
+}
+
+.formulario{
+    width: 90%;
+    height: 80%;
+}
+
+.text-area{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 5px;
+    resize: none;
+    background-color: transparent;
+    color: white;
+    font-size: 17px;
+}
+
+.text-area:focus{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    
+}
+
+.contador-caracteres{
+    font-size: 12px;
+    position: absolute;
+    right: 4%;
+    bottom: 34%;
+    color: white;
+}
+
+.boton-translate{
+    padding: 14px 35px 14px 35px;
+    background-color: #263FA9;
+    border-radius: 11px;
+    border: 1px solid #c6c6c6;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.botones-pantalla-sonido{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+}
+
+.boton-sonido{
+    background-color: transparent;
+    color: white;
+    border: 3px solid #535c6e;
+    padding: 6px;
+    border-radius: 29%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.boton-sonido:active{
+    background-color: #535c6e;
+}
